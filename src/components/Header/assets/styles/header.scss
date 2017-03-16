@@ -1,0 +1,39 @@
+header {
+  height:30vh;
+  overflow:hidden;
+  background:#000;
+  border-bottom-left-radius:100%;
+  border-bottom-right-radius:100%;
+  position:relative;
+  border:6px solid #000;
+  margin-bottom: 5%;
+
+  span {
+    width:100%;
+    text-align:center;
+    display:block;
+    margin-top:3em;
+    position:relative;
+    a {
+      color: hotpink;
+      font-size:6em;
+      text-shadow: -4px -4px 0 #fff, 4px -4px 0 #fff, -4px 4px 0 #fff, 4px 4px 0 #fff;
+      text-decoration: none;
+      font-family: 'lobster';
+      &:hover {
+        text-decoration:none;
+        cursor:pointer;
+      }
+    }
+  }
+  .img {
+    background-image:url('../../assets/images/background.png');
+    background-size: 500px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    opacity: 0.9;
+   }
+}

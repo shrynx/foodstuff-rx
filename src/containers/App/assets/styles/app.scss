@@ -1,0 +1,25 @@
+@import '~materialize-css/sass/components/_normalize.scss';
+@import '~materialize-css/sass/components/_color.scss';
+@import '~materialize-css/sass/components/_mixins.scss';
+@import '~materialize-css/sass/components/_variables.scss';
+@import '~materialize-css/sass/components/_typography.scss';
+@import '~materialize-css/sass/components/_global.scss';
+@import '~materialize-css/sass/components/_buttons.scss';
+@import '~materialize-css/sass/components/_cards.scss';
+@import '~materialize-css/sass/components/_grid.scss';
+@import '~materialize-css/sass/components/forms/_input-fields.scss';
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.hotpink {
+  background-color: hotpink;
+  &:hover {
+    background-color: deeppink;
+  }
+  &:focus {
+    background-color: deeppink;
+  }
+}
+.hotpink-text {
+  color: hotpink;
+}

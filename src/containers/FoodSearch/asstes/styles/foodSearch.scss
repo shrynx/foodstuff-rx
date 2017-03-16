@@ -1,0 +1,21 @@
+.food-search {
+  margin-top: 20%;
+  $font-size: 4rem;
+  $size: 6rem;
+  input[type=text] {
+    height: $size;
+    font-size: $font-size;
+    &:focus:not([readonly]) {
+      border-bottom: 1px solid hotpink;
+      box-shadow: 0 1px 0 0 hotpink;
+    }
+  }
+  .btn-floating.btn-large {
+    width: $size;
+    height: $size;
+    i {
+      line-height: $size;
+      font-size: $font-size;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "foodstuff-rx",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-super-scripts": "0.2.4"
+  },
+  "dependencies": {
+    "materialize-css": "^0.98.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.2",
+    "redux-observable": "^0.13.0",
+    "rxjs": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "react_super_scripts": {
+    "appEntry": "src/index.js",
+    "port": "3000",
+    "dashboard": true
+  }
+}

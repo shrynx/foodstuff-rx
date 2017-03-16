@@ -1,0 +1,44 @@
+.food {
+  .card-stacked,
+  .card.horizontal {
+    height: 40vh;
+    overflow: hidden;
+  }
+  .food-name {
+    font-family: lobster;
+  }
+  .card-content {
+    font-size: 1.25rem;
+    .s9 {
+      font-weight: bolder;
+      font-size: 1.3rem;
+    }
+  }
+  .heavy-food {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  .light-food {
+    background-color: hotpink;
+    color: #fff;
+  }
+  .image {
+    min-height: 100px;
+    min-width: 180px;
+
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 40vh;
+    background: #fff;
+    img {
+      width:100%;
+      min-height: 100px;
+      padding: 10px;
+    }
+  }
+  .pull-right {
+    float:right;
+  }
+}
