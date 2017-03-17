@@ -1,6 +1,12 @@
 # FoodStuff-rx
 **A tiny app to demonstrate redux-observable, available [here](https://foodstuff-rx.surge.sh/)**
 
+This demo is made for a [presentation](http://redux-obs-prez.surge.sh/#/) over side effects in redux.
+
+You can search for **pizza** or **sushi** here.
+
+The catch is ```pizza will take 9 sec``` and ```sushi will take 2 secs```, so potentially one request can finish in between another one causing side effects and hence redux-observable is used to handle it.
+
 ## Folder Structure
 ```
 /
